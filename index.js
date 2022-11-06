@@ -23,7 +23,7 @@ const client = new MongoClient(uri, {
 
 const run = async () => {
   try {
-    const productCollection = client.db("EmaJohn").collection("Products");
+    const productCollection = client.db("EmaJohnn").collection("Products");
 
     app.get("/products", async (req, res) => {
       const page = parseInt(req.query.page);
